@@ -39,6 +39,7 @@ echo           ║
 echo           ╠════^> %input%
 echo           ║
 set /p conf=.%BS%         ╚══════^> Config : 
+cls
 if /I %input% EQU 1 katana %conf%
 if /I %input% EQU 2 subfinder %conf%
 if /I %input% EQU 3 httpx %conf%
